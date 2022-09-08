@@ -2,7 +2,7 @@
 
 //
 //  Package.Swift
-//  Starscream
+//  StarscreamIII
 //
 //  Created by Dalton Cherry on 5/16/15.
 //  Copyright (c) 2014-2016 Dalton Cherry.
@@ -23,14 +23,14 @@
 import PackageDescription
 
 let package = Package(
-        name: "Starscream",
+        name: "StarscreamIII",
         products: [
-            .library(name: "Starscream", targets: ["Starscream"])
+            .library(name: "StarscreamIII", targets: ["StarscreamIII"])
         ],
         dependencies: [
           .package(url: "https://github.com/apple/swift-nio-zlib-support.git", from: "1.0.0")
         ],
         targets: [
-            .target(name: "Starscream")
+            .target(name: "StarscreamIII")
         ]
 )
